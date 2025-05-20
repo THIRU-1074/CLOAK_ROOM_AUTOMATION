@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Library Check-In/Check-Out</title>
+    <link rel="stylesheet" href="welcome.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a onclick="scrollToHome()">Home</a>
+      <a onclick="scrollToAbout()">About Us</a>
+    </div>
+    <div id="home" class="top">
+      <div class="slideshow">
+        <div class="slide active">
+          <img src="images/library1.png" alt="Library 1" />
+        </div>
+        <div class="slide">
+          <img src="images/library2.png" alt="Library 2" />
+        </div>
+        <div class="slide">
+          <img src="images/library3.png" alt="Library 3" />
+        </div>
+        <div class="slide">
+          <img src="images/library4.png" alt="Library 4" />
+        </div>
+      </div>
+    </div>
+    <div class="bottom">
+      <h1>Library System</h1>
+      <b
+        >Experience a seamless check-in and check-out process at our
+        state-of-the-art library.</b
+      >
+      <div class="button-container">
+        <button id="checkInBtn">Check In</button>
+        <button id="checkOutBtn">Check Out</button>
+      </div>
+      <div id="statusMessage" class="status-box">
+        <b>Welcome! Please select an option.</b>
+      </div>
+      <div id="emptyShelfCount" class="shelf-count">
+        <b>Available Shelves Count: <span id="shelfNumber">Loading...</span></b>
+      </div>
+    </div>
+    <div id="about" class="about">
+      <h2>About Us</h2>
+      <p>
+        The VIT Chennai Library is a hub of knowledge and learning, catering to
+        students and faculty alike.
+      </p>
+      <p>
+        With a vast collection of books, journals, and digital resources, it
+        supports academic excellence.
+      </p>
+      <p>
+        The library provides a peaceful and inspiring environment for research
+        and self-study.
+      </p>
+      <p>
+        Advanced technologies, including digital catalogs and e-resources, make
+        information access seamless.
+      </p>
+      <p>
+        Our dedicated staff ensures an enriching experience for all visitors and
+        knowledge seekers.
+      </p>
+    </div>
+    <script src="welcome.js"></script>
+  </body>
+</html>
